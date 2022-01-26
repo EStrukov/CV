@@ -1,0 +1,72 @@
+* {
+	font-family: 'Special Elite', cursive;
+	font-size: 1em;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+}
+li {
+    list-style-type: none; /* Убираем маркеры */
+   }
+   
+body {
+	max-width: 900px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+}
+header {
+	display: flex;
+	flex-basis: 100%;
+}
+
+img{
+	flex-basis: 300px;
+	margin:0;
+	padding:0;
+}	
+.my-name {
+	flex-basis: 60%;
+	margin: 100px auto 0;
+	text-align: center;
+}
+aside {
+	padding-left: 20px;
+	flex-basis: 300px;
+	background-color: #163d61;
+	color: #FFF;
+}
+.contact {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	margin: 20px 0 20px 0;
+}
+.contact a {
+	text-decoration: none;
+	cursor: pointer;
+	color: #FFF;
+	padding-left: 30px;
+}
+.email {
+  background: url(./assets/svg/email.svg) 0 50% / 20px 20px no-repeat;
+}
+
+.phone {
+  background: url(./assets/svg/phone.svg) 0 50% / 20px 20px no-repeat;
+}
+
+.telegram {
+  background: url(./assets/svg/telegram.svg) 0 50% / 25px 25px no-repeat;
+main {
+	flex-basis: 60%;
+}
+footer {
+	display: flex;
+	justify-content: space-between;
+	margin-top: auto;
+	flex-basis: 100%;
+
+}
