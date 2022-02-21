@@ -5,23 +5,27 @@
 	box-sizing: border-box;
 	line-height: 1.5em;
 }
+
 li {
-    list-style-type: none; /* Убираем маркеры */
-   }
-   
+	list-style-type: none;
+	/* Убираем маркеры */
+}
+
 body {
 	font-family: 'Arima Madurai', cursive;
 	max-width: 800px;
 	margin: 0 auto;
 	display: flex;
-	flex-wrap:wrap;
-	justify-content:center;
+	flex-wrap: wrap;
+	justify-content: center;
 	border: 1px solid black;
 }
+
 h1 {
 	font-family: 'Courgette', cursive;
 	font-size: 2.5em;
 }
+
 h2 {
 	font-family: 'Courgette', cursive;
 	font-size: 2em;
@@ -30,7 +34,8 @@ h2 {
 	box-shadow: 0 -14px 15px -5px rgba(22, 61, 97, 0.6) inset;
 	padding-left: 40px;
 }
-h3, 
+
+h3,
 h4 {
 	font-size: 1.5em;
 	font-family: 'Courgette', cursive;
@@ -38,92 +43,108 @@ h4 {
 	padding-left: 20px;
 	padding-top: 10px;
 }
+
 ul {
 	padding-left: 20px;
 	margin-bottom: 20px;
 }
+
 li {
-	margin-bottom: 10px;
+	margin-bottom: 0px;
 }
+
 p {
 	padding-left: 20px;
 }
+
 header {
 	display: flex;
 	flex-basis: 100%;
 	background-color: rgba(22, 61, 97, 0.3);
 }
 
-img{
+img {
 	flex-basis: 250px;
-	margin:0;
-	padding:0;
-}	
+	margin: 0;
+	padding: 0;
+}
+
 .my-name {
 	flex-basis: 70%;
 	margin: 0 auto;
 	text-align: center;
-	align-self:center;
+	align-self: center;
 }
+
 aside {
-	flex-grow:0;
+	flex-grow: 0;
 	padding-left: 20px;
 	flex-basis: 250px;
 	background-color: #163d61;
 	color: #FFF;
 }
+
 .contact {
 	display: flex;
 	flex-direction: column;
 	gap: 10px;
 	margin: 20px 0 20px 0;
 }
+
 .contact a {
 	cursor: pointer;
 	color: #FFF;
 	padding: 5px 0 5px 30px;
 	transition: all 0.5s ease;
 }
+
 .email {
-  background: url(../assets/svg/email.svg) 0 50% / 20px 20px no-repeat;
+	background: url(../assets/svg/email.svg) 0 50% / 20px 20px no-repeat;
 }
 
 .phone {
-  background: url(../assets/svg/phone.svg) 0 50% / 20px 20px no-repeat;
+	background: url(../assets/svg/phone.svg) 0 50% / 20px 20px no-repeat;
 }
 
 .linkedin {
-  background: url(../assets/svg/linkedin.svg) 0 50% / 25px 25px no-repeat;
+	background: url(../assets/svg/linkedin.svg) 0 50% / 25px 25px no-repeat;
 }
+
 main {
-	flex-grow:1;
+	flex-grow: 1;
 	flex-basis: 65%;
-	
+
 }
+
 section {
 	margin-bottom: 20px;
 }
+
 .date {
 	color: grey;
 	font-size: 0.8em;
 	margin-bottom: 10px;
 }
+
 .profile h2 {
 	padding-top: 20px;
 }
+
 .link {
 	cursor: pointer;
 	color: #000000;
-	padding: 5px 0 5px 30px;
 	transition: all 0.5s ease;
 }
+
 a:hover {
 	color: #b2a62f;
 	transition: all 0.5s ease;
 }
+
 .in-circle {
 	display: flex;
 }
+
 .full {
 	margin-left: 10px;
 	display: inline-block;
@@ -133,6 +154,7 @@ a:hover {
 	border-radius: 50%;
 	background-color: #FFF;
 }
+
 span {
 	margin-left: 10px;
 	display: inline-block;
@@ -142,6 +164,7 @@ span {
 	border-radius: 50%;
 	background-color: rgba(255, 255, 255, 0.2);
 }
+
 footer {
 	display: flex;
 	justify-content: space-between;
@@ -149,26 +172,28 @@ footer {
 	flex-basis: 100%;
 	border: 1px solid black;
 }
+
 footer p,
 footer a {
 	margin: 0;
 	padding: 0;
-	align-self:flex-end;
+	align-self: flex-end;
 }
 
 @media (max-width: 767px) {
-aside {
-	flex-grow: 1;
-}
+	aside {
+		flex-grow: 1;
+	}
 
-.skills {
-	padding-left: 0;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	flex-wrap: wrap;
-}
-.in-circle ul {
-	padding: 0;
-}
+	.skills {
+		padding-left: 0;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+
+	.in-circle ul {
+		padding: 0;
+	}
 }
